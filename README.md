@@ -14,7 +14,7 @@ Do these steps on Docker Server (the server you need to monitor and execute comm
   2- dpkg -i zabbix-release_*.deb <br />
   3- apt update <br />
   4- apt install zabbix-agent2 <br />
-  5- nano /etc/zabbix/zabbix-agent2.conf (based on uploaded file above) <br />
+  5- nano /etc/zabbix/zabbix-agent2.conf <a href="https://github.com/arezoomaleki/docker-container-auto-restart-using-zabbix/blob/main/zabbix_agent2.conf">(based on uploaded file above)</a> <br />
   6- useradd -a -G docker zabbix <br />
   7- systemctl restart zabbix_agent2.service <br />
 <br />
