@@ -27,4 +27,5 @@ To test your settings you can install zabbix_get utility on your Zabbix Server a
    2- Choose a name and select action operation and script then enter your script <br />
    3- to restart all docker containers (running and stopped), plese enter this command: "docker restart $(docker ps -a -q)" <br />
    4- Then go to Configurations > Actions > Trigger actions and add a new one <br />
-   
+   5- then 	choose your conditions (for example I used "Container {#NAME}: Container has been stopped with error code" and "Container {#NAME}: An error has occurred in         the container" from "Docker by Zabbix agent2" template </br>
+   6- and set you script in Operation detailes tab.
