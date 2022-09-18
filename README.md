@@ -1,14 +1,14 @@
 # docker-container-auto-restart-using-zabbix
 # Docker Container restart using Zabbix agent 2 in failure condition
 
-Prerequirements:
-1- Zabbix Server
-2- Docker server include containers
-3- Zabbix agent 2 install on Docker Server
-
-Step 1: [How to install zabbix Agent 2] 
-Do these steps on Docker Server (the server you need to monitor and execute commands on it):
-
+Prerequirements: <br />
+1- Zabbix Server <br />
+2- Docker server include containers <br />
+3- Zabbix agent 2 install on Docker Server <br />
+<br />
+Step 1: [How to install zabbix Agent 2] <br />
+Do these steps on Docker Server (the server you need to monitor and execute commands on it): <br />
+<br />
   1- wget https://repo.zabbix.com/zabbix/6.0/ {Choose based on your Zabbix Server Linux and Version}
   2- dpkg -i zabbix-release_*.deb
   3- apt update
