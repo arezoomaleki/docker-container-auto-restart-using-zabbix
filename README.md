@@ -1,7 +1,7 @@
 # docker-container-auto-restart-using-zabbix
 # Docker Container restart using Zabbix agent 2 in failure condition
 
-Prerequirements: <br />
+<h3> Prerequirements: </h3><br />
 1- Zabbix Server <br />
 2- Docker server include containers <br />
 3- Zabbix agent 2 install on Docker Server <br />
