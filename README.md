@@ -7,9 +7,8 @@ Prerequirements: <br />
 3- Zabbix agent 2 install on Docker Server <br />
 <br />
 <br />
-Step 1: [How to install zabbix Agent 2] <br />
+ <h2> Step 1: [How to install zabbix Agent 2] </h2><br />
 Do these steps on Docker Server (the server you need to monitor and execute commands on it): <br />
-<br />
 <br />
   1- wget https://repo.zabbix.com/zabbix/6.0/ {Choose based on your Zabbix Server Linux and Version} <br />
   2- dpkg -i zabbix-release_*.deb <br />
