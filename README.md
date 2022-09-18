@@ -21,6 +21,8 @@ To test your settings you can install zabbix_get utility on your Zabbix Server a
   zabbix_get -s Docker-Server-IP -p 10050 -k system.run["echo 123"]
  
  Step2: [How to add operation and action on zabbix]
-   1- In Zabbix Server Web Panel, go to Administration > scripts > new script
-   
-  
+   1- In Zabbix Server Web Panel, go to Administration > scripts > create script
+   2- Choose a name and select action operation and script then enter your script
+   3- to restart all docker containers (running and stopped), plese enter this command: "docker restart $(docker ps -a -q)"
+   4- Then go to Configurations > Actions > Trigger actions and add a new one
+   5- 
